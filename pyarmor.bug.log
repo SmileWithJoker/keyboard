@@ -1,0 +1,12 @@
+[BUG]: no found input "keylogger.py"
+
+## Command Line
+/home/mark/Desktop/keylogger/venv/bin/pyarmor gen keylogger.py
+
+## Environments
+Python 3.13.3
+Pyarmor 9.1.8 (trial), 000000, non-profits
+Platform linux.x86_64
+Native linux.x86_64
+Home /home/mark/.pyarmor
+

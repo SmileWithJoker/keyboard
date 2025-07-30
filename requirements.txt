@@ -1,9 +1,12 @@
 altgraph==0.17.4
 evdev==1.9.2
 packaging==25.0
+pyarmor==9.1.8
+pyarmor.cli.core==7.6.7
 pyinstaller==6.13.0
 pyinstaller-hooks-contrib==2025.4
 pynput==1.8.1
 python-xlib==0.33
+schedule==1.2.2
 setuptools==80.7.1
 six==1.17.0
